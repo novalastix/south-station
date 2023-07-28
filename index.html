@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>MBTA South Station</title>
+        <link href="styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <main>
+            <h1>SOUTH STATION TRAIN INFORMATION</h1>
+            <div class="left">
+                <h2 id="weekday"></h2>
+                <h2 id="date"></h2>
+            </div>
+            <div class="right">
+                <h2>CURRENT TIME</h2>
+                <h2 id="time"></h2>
+            </div>
+            <table>
+                <thead>
+                    <th>CARRIER</th>
+                    <th>TIME</th>
+                    <th>DESTINATION</th>
+                    <th>TRAIN#</th>
+                    <th>STATUS</th>
+                </thead>
+                <tbody id="tablebody">
+                </tbody>
+            </table>
+        </main>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</html>
